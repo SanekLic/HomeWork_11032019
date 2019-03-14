@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_looks_one"
-            android:title="Fragment one" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_looks_two"
-            android:title="Fragment two" />
-    </group>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/looksOneItem"
+        android:icon="@drawable/ic_looks_one"
+        android:title="Fragment one" />
+    <item
+        android:id="@+id/looksTwoItem"
+        android:icon="@drawable/ic_looks_two"
+        android:title="Fragment two" />
 </menu>
