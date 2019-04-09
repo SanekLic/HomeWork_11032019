@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="This is fragment One"
+        android:text="@string/this_is_fragment_one"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
